@@ -42,6 +42,7 @@ def cityreader(cities=[]):
             else:
                 currentCity = City(row[0], row[3], row[4])
                 cities.append(currentCity)
+    return cities
 
 
 cityreader(cities)
